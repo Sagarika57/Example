@@ -1,0 +1,90 @@
+<!-- Blank spaces: Some exceptions to formatting
+<pre>
+<code>
+<textarea>
+HTML Entity &nbsp; Non breakable space
+<br> Tag - Break tag -->
+
+<!-- comment tag -->
+
+UPPERCASE & LOWERCASE:
+In the beginning when HTML was still new, the tags were capitalized.
+HTML evolved.
+lowercase to write both HTML and the content.
+There are thousands of websites out there with capitalized tags and billions of websites with lowercase tags.
+All of these websites still work fine.
+
+Different types of tags:
+
+For example, P tag is just a letter, so is the eye tag.
+But then there are short word tags like the pre tag and the BR tag.
+Then there are full word tags like the article tag and the section tag.
+The question is why.
+The HTML was invented in the late 80s and 90s and the computer scientists had to work closely and was
+worried about every bit and byte.
+The memory storage was very limited to one megabyte of Ram and 20MB of storage.
+And every character added size to the file.
+So it was difficult to maintain the storage.
+But as the HTML evolved, so did the storage space too.
+Now we have gigabytes to terabytes of storage, so the newer HTML elements have full words.
+These elements can take up to as much as as required and are readable to humans too.
+So what about the closing tags?
+We have seen tags that have closing tags and we have seen tags that do not have a closing tag.
+Let's look at an example.
+All the newer elements have opening tag and closing tag.
+But there are some older tags that do not have a closing tag.
+In this example, the P tag, the video tag and the canvas tag have closing tags.
+The older elements like IMG tag do not have a closing tag.
+If you look at the image tag closely, the image tag do not have a forward slash closing tag.
+This is because around 2006 to 2010, everyone was like, You need to have a forward slash on every blank tag.
+But later it changed again. 
+Now it really doesn't matter if you add or do not add a forward slash to your blank tag.
+
+For example, let's say you want to create a main page or home page for your website.
+You should never name it as main dot HTML or home dot HTML instead you should name it as index.html.
+If you have pages that are related to styles, you can name these as custom Style.css
+Main Style.css or Style.css.
+If you are naming the page names, you would have to name something like this.
+About.html Services dot HTML products, dot HTML, blog, dot HTML or even post dot HTML.
+Always remember to specify the page name as a page purpose.
+
+Languages in HTML:
+    * Lang Attributes
+        <html lang="en-US"></html>
+    * en-US - English US
+    * en-GB - English Great Britain
+    * How we spell
+        colour
+        color
+    * lang="en"
+Languages for content:
+    * Add the Lang attribute to each section.
+    * The Lang attribute is a universal attribute, which means you can add this to any element of your web.
+Direction:
+    * Left to Right - "ltr"
+    * Right to Left - "rtl"
+    * dir - Direction - universal attribute
+    * <html lang="en-gb" dir="ltr">
+    * <html lang-"en-gb" dir="rtl">
+Setting Charset:
+    * ASCII - limited to 128 characters.
+    * Unicode - UTF-8
+Specify Charset:
+    * <meta charset="UTF-8">
+    * <head></head>
+    * <head><meta charset="UTF-8"></head>
+The div tag and The span tag:
+    * Div Tag 
+    * Span tag
+    * <div> is a block element
+    * <span> is an inline element
+The document declaration & HTML:
+    * Document declaration
+    * Declares which version of HTML is being used.
+    * <!doctype html>
+    * <html></html>
+    * <html lang="en-US"></html>
+    * <html lang="en-US" dir="ltr"></html>
+The head and the body:
+    * <head> tag
+    * <body> tag
